@@ -1,0 +1,5 @@
+class Polynomial:
+def__init__(self,coef,name=p(x))
+p=Polynomial([1,0,-2,1])
+q=Polynomial([1,0,-1])
+print(p.coef)

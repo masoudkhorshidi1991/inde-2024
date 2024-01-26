@@ -1,0 +1,11 @@
+class Polynomial:
+    def __init__(self, coef, name="p(x)"):
+        self.coef = coef
+        self.name = name
+
+p = Polynomial([1, 0, -2, 1])
+q = Polynomial([1, 0, -1])
+print(p.coef)
+def degree(self):
+     return len(self.coef)-1
+print(p.degreed)
